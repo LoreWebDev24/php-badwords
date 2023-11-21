@@ -1,18 +1,24 @@
+<?php
+$badWord = $_POST['bad-word'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Php</title>
+  <title>Il Tuo Testo Censurato</title>
 </head>
 
 <body>
 
-  <form action="index.php" method="POST">
-    <input type="text" name="bad-word">
-    <input type="submit" value="Invia">
-  </form>
+  <div>
+    <p>
+        Il tuo testo censurato
+    </p>
+  </div>
 
 </body>
 
